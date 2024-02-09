@@ -14,7 +14,9 @@
 ### Estructura de la aplicación
 ![estructuraapp.png](./estructuraapp.png)
 
-Las clases que gestionan los arrays y la entrada salida estarán en dd.main que contendrá al menos la clase pirncipal (la que contiene el main). Si la gestión es sencilla, puede bastar con escribir una clase para todo. 
+Las clases que gestionan los arrays y la entrada salida estarán en dd.main. Este paquete contendrá al menos la clase principal (la que contiene el main). Si la gestión es sencilla de los arrays y la E/S, puede bastar con escribir una clase.
+
+Las clases que gestionan los personajes y sus ataques están en dd.core
 
 Antes de lanzarse  a escribir código para lucha de ejércitos, previamente debes de  probar la lucha con personajes sueltos para ver que todo está en orden. De está manera nos centramos por completo en un primer momento en escribir bien la jerarquía que es lo importante. Ten en cuenta además que al trabajar con parámetros Random depurar directamente con ejércitos es más difícil y lioso
 
