@@ -118,4 +118,6 @@ ControlLucha() {
 ``` 
 int valorAtaque=(int)(Ataque.getAciertoFactor()*ATAQUE_CUCHILLO);
 ```
+- NO ES NECESARIO para esta tarea generar javadoc ni jar. Ya esta aprendido de prácticas anteriores el concepto de "parte pública" de una clase(para lo que generamos javadoc) y asi mismo darse cuenta de la necesidad de ejecutar una App fuera del IDE(para lo que generamos un .jar). Ahora nos ocupamos de otros conceptos.
+- Tampoco se pide en dd.main separar la E/S de la lógica del manejo de los arrays de los ejercitos. De nuevo, en esta tarea queremos centrarnos en otros conceptos.
 
