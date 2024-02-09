@@ -6,7 +6,7 @@ decide aplicar un patrón de diseño STRATEGY para la construcción de los perso
 y sus acciones de combate.
 
 
-## clases obligatorias(puedes añadir otras clases y métodos siempre y cuando justifiques su necesidad):
+### clases obligatorias(puedes añadir otras clases y métodos siempre y cuando justifiques su necesidad):
 
 
 - Personaje 
@@ -40,7 +40,7 @@ y sus acciones de combate.
 Con objeto de probar la jerarquía de clases anterior, se propone el desarrollo de una pequeña aplicación de consola que simulará el enfrentamiento entre un ejército de hombres y otro de trolls.
 
 
-**INSTANCIAS**
+### INSTANCIAS
 
 El programa principal (DDApp) gestionará dos arrays, una por cada ejército, a las que se añadirán las siguientes instancias de objetos
 
@@ -58,15 +58,12 @@ El programa principal (DDApp) gestionará dos arrays, una por cada ejército, a 
 - El nombre de la instancia será: “**Troll n”**, donde n será un número de secuencia (empezando en 1)
 - El tipo de ataque de cada troll también se escogerá de **forma aleatoria para cada uno** entre los diferentes tipos
 
-**MECÁNICA DEL JUEGO**
+### MECÁNICA DEL JUEGO
 
 - El juego seguirá una mecánica basada en turnos.
 - En cada turno, los miembros de cada bando lanzará sus ataques sobre los miembros del otro ejército. Primero los hombres y, luego, los trolls
 - En el turno de cada bando, por cada uno de sus miembros, se seleccionará un enemigo del bando contrario de forma aleatoria y le lanzará el ataque. Si, como consecuencia del ataque, la salud del contrincate quedara a un valor igual o menor que 0, se entiende que dicho personaje ha muerto y no seguirá participando.
 - Los turnos se irán sucediendo hasta la finalización de la batalla. Esta finaliza cuando uno de los bandos se queda sin guerreros
-
-**NOTA:** GENERACIÓN NÚMEROS PSEUDOALEATORIOS:
-
 
 
 **Ejemplo de de salida generado** (se han suprimido algunos mensajes)**:**
