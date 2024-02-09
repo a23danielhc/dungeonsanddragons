@@ -5,7 +5,7 @@
 - comprender la importancia de las patrones y principios solid a través del uso de Strategy
 
 ## En este repositorio encontrarás:
-- Enunciado original(prof. Fran Montoiro) que describe la tarea. 
+- Enunciado original adaptado (prof. Fran Montoiro) que describe la tarea. [enunciado original](https://github.com/lozanoSC/dungeonsdragonsenunciado/blob/main/Enunciadooriginal.md)
 - Esqueleto de la aplicación que se desprende del enunciado anterior. Los paquetes y clases que aparecen en dicho esqueleto son obligatorios. Podrías, si lo consideras oportuno, añadir clases propias. Puedes hacer fork para crearte una copia rápida de este proyecto.
 - Una serie de consideraciones que deberás añadir al enunciado original.
 - Un documento con una serie de preguntas a responder al finalizar tu proyecto que deberas incluir en tu proyecto con tu respuesta.
