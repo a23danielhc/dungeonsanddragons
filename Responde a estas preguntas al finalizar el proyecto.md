@@ -3,11 +3,12 @@
 
 - ¿Cuáles son las estrategias?
 - ¿Está el código de las diferentes ataques  mezclado?¿El código del ataque con espada es independiente del código del ataque con arco?  .Relaciona esto con algún principio SOLID.
-- ¿Para que vale la interface Ataque?
+- ¿Qué impacto tendría en tu código que no hubiera interfaz ataque, solo directamente las clases de ataque?
 - ¿Qué clase o clase se encarga del papel de contexto?
 - ¿En que se parece y  en que se diferencia el  contexto de tu proyecto al contexto del Patrón teórico del boletín?
+- En las implementaciones de tus ataques ¿Tienes acceso a un objeto personaje? ¿Que ventajas e inconvenientes le ves a esto?
 - ¿Quién es el Cliente?
-- ¿Como cambia el cliente de  estrategia?
+- Con este patrón, el cliente debe conocer las estrategias.
 - ¿Para cambiar de estrategia, tiene que conocer el cliente detalles de implementación de la estrategia?
 - ¿Si creamos un nuevo tipo de ataque para un nuevo cliente, por ejemplo App2,  es
 necesario modificar el cliente antiguo? Relaciona esto con algún principio SOLID.
